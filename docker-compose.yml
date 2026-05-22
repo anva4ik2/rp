@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: gta-rp-postgres
+    environment:
+      POSTGRES_USER: gta_user
+      POSTGRES_PASSWORD: gta_password
+      POSTGRES_DB: gta_rp
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gta_user -d gta_rp"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gta-rp-server
+    environment:
+      DATABASE_URL: postgresql://gta_user:gta_password@postgres:5432/gta_rp
+      PORT: 3000
+      NODE_ENV: production
+      JWT_SECRET: your-secret-key-change-in-production
+      CORS_ORIGINS: "*"
+    ports:
+      - "3000:3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

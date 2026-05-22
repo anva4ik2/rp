@@ -1,0 +1,9 @@
+{
+  "name": "@gta-rp/ragemp-cef",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/copy-static.mjs",
+    "lint": "node -e \"console.log('cef has no lint')\""
+  }
+}
