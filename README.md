@@ -15,20 +15,54 @@
 
 ## 🚀 Деплой backend на Railway
 
-1. Создай проект на [railway.app](https://railway.app), подключи репозиторий.
-2. В проекте добавь плагин **PostgreSQL** — `DATABASE_URL` появится автоматически.
-3. В сервисе бэкенда задай переменные окружения:
-   ```env
-   DATABASE_URL=${{Postgres.DATABASE_URL}}
-   JWT_SECRET=<64+ случайных символов>
-   ADMIN_TOKEN=<длинный случайный токен>
-   CORS_ORIGINS=*
-   PORT=3000
-   BOOTSTRAP_FOUNDER_EMAIL=<твой email — получит admin level 5 при первой регистрации>
-   STARTER_VEHICLE_MODEL=blista
-   ```
-4. Railway сам подхватит `@/railway.json`: соберёт `@gta-rp/shared` → `@gta-rp/server`, поднимет миграции, проверит `/health`.
-5. Получи публичный URL вида `https://<service>.up.railway.app` — это твой `API_BASE_URL` для RAGE MP-моста.
+Railway автоматически подхватит `@/railway.json`: соберёт `@gta-rp/shared` → `@gta-rp/server`, добавит PostgreSQL, создаст переменные окружения. Тебе останется только **заменить placeholder-значения** на реальные токены.
+
+### 1. Подключение репозитория
+1. Создай проект на [railway.app](https://railway.app) → **New Project** → **Deploy from GitHub repo**.
+2. Выбери `anva4ik2/rp`.
+3. Railway автоматически прочитает `railway.json` и создаст сервис + PostgreSQL.
+
+### 2. Переменные окружения (5 сервисов)
+
+#### Сервис 1 — Express API (`packages/server`)
+Railway создаст эти переменные автоматически из `railway.json`, но **обязательно замени placeholder**:
+
+| Переменная | Описание | Что вписать |
+|------------|----------|-------------|
+| `DATABASE_URL` | Авто — из плагина PostgreSQL | Не трогай, Railway подставит сам |
+| `JWT_SECRET` | Ключ подписи JWT | `openssl rand -hex 32` или любая строка ≥32 символов |
+| `ADMIN_TOKEN` | Токен моста RAGE MP ↔ API | `openssl rand -hex 24` — **тот же** для ragemp-server |
+| `BOOTSTRAP_FOUNDER_EMAIL` | Email первого админа (level 5) | Твой реальный email |
+| `STARTER_VEHICLE_MODEL` | Стартовая машина новичка | `asea`, `blista`, `sultan` и т.д. |
+| `PORT` | Порт Express | `4000` (Railway пробросит публичный URL) |
+| `CORS_ORIGINS` | Разрешённые origins | `*` для dev, потом замени на домен |
+
+#### Сервис 2 — PostgreSQL
+Авто-создаётся плагином. Переменная `DATABASE_URL` появится сама.
+
+#### Сервис 3 — RAGE MP Server (`packages/ragemp-server`)
+**Если деплоишь на Railway отдельным сервисом** (опционально, обычно запускается локально):
+
+| Переменная | Описание |
+|------------|----------|
+| `API_BASE_URL` | `https://<express-service>.up.railway.app` |
+| `ADMIN_TOKEN` | **Тот же**, что в Express API |
+| `AUTH_SALT` | Любая длинная строка для хеша паролей |
+
+#### Сервис 4 — RAGE MP Client (`packages/ragemp-client`)
+Не деплоится на Railway. Собирается локально: `npm run build` внутри `packages/ragemp-client`.
+
+#### Сервис 5 — CEF UI (`packages/ragemp-cef`)
+Не деплоится отдельно. Встраивается в `client_packages` как HTML/CSS/JS. Нет env-переменных — всё через `mp.trigger`.
+
+### 3. Где менять переменные
+**Railway Dashboard** → выбери сервис **server** → вкладка **Variables** → замени `CHANGE_ME_*` на реальные значения.
+
+### 4. Перезапуск
+После смены переменных Railway автоматически пересоберёт и перезапустит сервис. Проверь `/health` — должен вернуть `{"ok":true}`.
+
+### 5. Получи API URL
+Публичный URL вида `https://<service>.up.railway.app` — это твой `API_BASE_URL` для RAGE MP-моста.
 
 ## 🎮 Запуск RAGE MP
 

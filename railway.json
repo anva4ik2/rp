@@ -13,5 +13,37 @@
   },
   "plugins": [
     { "plugin": "postgresql", "options": { "version": "16" } }
+  ],
+  "variables": [
+    {
+      "name": "JWT_SECRET",
+      "description": "Secret key for JWT signing (min 32 chars). REQUIRED.",
+      "defaultValue": "CHANGE_ME_32_CHAR_MINIMUM_SECRET_KEY"
+    },
+    {
+      "name": "ADMIN_TOKEN",
+      "description": "Shared token between Express API and RAGE MP Server bridge. REQUIRED.",
+      "defaultValue": "CHANGE_ME_ADMIN_TOKEN"
+    },
+    {
+      "name": "BOOTSTRAP_FOUNDER_EMAIL",
+      "description": "Email of the first admin account created on first launch.",
+      "defaultValue": "founder@example.com"
+    },
+    {
+      "name": "STARTER_VEHICLE_MODEL",
+      "description": "Starter vehicle model for new players.",
+      "defaultValue": "asea"
+    },
+    {
+      "name": "PORT",
+      "description": "Express API port.",
+      "defaultValue": "4000"
+    },
+    {
+      "name": "CORS_ORIGINS",
+      "description": "Comma-separated CORS origins.",
+      "defaultValue": "*"
+    }
   ]
 }
