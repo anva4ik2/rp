@@ -1,0 +1,14 @@
+node_modules
+dist
+.env
+.env.local
+.env.*.local
+*.log
+coverage
+server-files
+resources/
+bin/
+locales/
+policies/
+tools/
+.windsurf/

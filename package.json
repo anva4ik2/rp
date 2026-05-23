@@ -1,0 +1,20 @@
+{
+  "name": "gta-rp-core",
+  "private": true,
+  "version": "0.2.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run -ws --if-present build",
+    "lint": "npm run -ws --if-present lint",
+    "dev:server": "npm --workspace @gta-rp/server run dev",
+    "dev:ragemp": "npm --workspace @gta-rp/ragemp-server run dev",
+    "dev:launcher": "npm --workspace @gta-rp/launcher run dev",
+    "sync:ragemp": "node scripts/sync-ragemp.mjs",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "docker:build": "docker-compose build"
+  }
+}

@@ -1,0 +1,3449 @@
+{
+  "items": [
+    {
+      "modelCode": "civx_super_001",
+      "displayName": "Vapid SUPER 1",
+      "brand": "Vapid",
+      "price": 4458096,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_002",
+      "displayName": "Dinka SPORT 2",
+      "brand": "Dinka",
+      "price": 936064,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_003",
+      "displayName": "Lampadati ECONOMY 3",
+      "brand": "Lampadati",
+      "price": 105028,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_004",
+      "displayName": "Truffade COMFORT 4",
+      "brand": "Truffade",
+      "price": 332769,
+      "tier": "comfort",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_005",
+      "displayName": "Vulcar SUPER 5",
+      "brand": "Vulcar",
+      "price": 5305090,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_006",
+      "displayName": "Grotti ECONOMY 6",
+      "brand": "Grotti",
+      "price": 37663,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_007",
+      "displayName": "Lampadati COMFORT 7",
+      "brand": "Lampadati",
+      "price": 328390,
+      "tier": "comfort",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_008",
+      "displayName": "Pegassi PREMIUM 8",
+      "brand": "Pegassi",
+      "price": 3227661,
+      "tier": "premium",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_009",
+      "displayName": "Karin ECONOMY 9",
+      "brand": "Karin",
+      "price": 48868,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_010",
+      "displayName": "Benefactor SUPER 10",
+      "brand": "Benefactor",
+      "price": 2377177,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_011",
+      "displayName": "Vulcar COMFORT 11",
+      "brand": "Vulcar",
+      "price": 345889,
+      "tier": "comfort",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_012",
+      "displayName": "Ubermacht COMFORT 12",
+      "brand": "Ubermacht",
+      "price": 301025,
+      "tier": "comfort",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_013",
+      "displayName": "Ubermacht COMFORT 13",
+      "brand": "Ubermacht",
+      "price": 352472,
+      "tier": "comfort",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_014",
+      "displayName": "Gallivanter ECONOMY 14",
+      "brand": "Gallivanter",
+      "price": 118791,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_015",
+      "displayName": "Truffade COMFORT 15",
+      "brand": "Truffade",
+      "price": 153369,
+      "tier": "comfort",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_016",
+      "displayName": "Vulcar PREMIUM 16",
+      "brand": "Vulcar",
+      "price": 968359,
+      "tier": "premium",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_017",
+      "displayName": "Obey SPORT 17",
+      "brand": "Obey",
+      "price": 1482061,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_018",
+      "displayName": "Lampadati SUPER 18",
+      "brand": "Lampadati",
+      "price": 6259473,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_019",
+      "displayName": "Enus SUPER 19",
+      "brand": "Enus",
+      "price": 3731481,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_020",
+      "displayName": "Grotti SUPER 20",
+      "brand": "Grotti",
+      "price": 6905597,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_021",
+      "displayName": "Grotti SUPER 21",
+      "brand": "Grotti",
+      "price": 5166345,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_022",
+      "displayName": "Grotti ECONOMY 22",
+      "brand": "Grotti",
+      "price": 45456,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_023",
+      "displayName": "Grotti SPORT 23",
+      "brand": "Grotti",
+      "price": 855019,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_024",
+      "displayName": "Pegassi ECONOMY 24",
+      "brand": "Pegassi",
+      "price": 124204,
+      "tier": "economy",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_025",
+      "displayName": "Pegassi COMFORT 25",
+      "brand": "Pegassi",
+      "price": 438328,
+      "tier": "comfort",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_026",
+      "displayName": "Pegassi ECONOMY 26",
+      "brand": "Pegassi",
+      "price": 123727,
+      "tier": "economy",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_027",
+      "displayName": "Pegassi PREMIUM 27",
+      "brand": "Pegassi",
+      "price": 3160978,
+      "tier": "premium",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_028",
+      "displayName": "Grotti ECONOMY 28",
+      "brand": "Grotti",
+      "price": 105815,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_029",
+      "displayName": "Pfister COMFORT 29",
+      "brand": "Pfister",
+      "price": 179473,
+      "tier": "comfort",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_030",
+      "displayName": "Benefactor SPORT 30",
+      "brand": "Benefactor",
+      "price": 1769880,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_031",
+      "displayName": "Vulcar SUPER 31",
+      "brand": "Vulcar",
+      "price": 6835730,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_032",
+      "displayName": "Pegassi SPORT 32",
+      "brand": "Pegassi",
+      "price": 653280,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_033",
+      "displayName": "Vulcar COMFORT 33",
+      "brand": "Vulcar",
+      "price": 176351,
+      "tier": "comfort",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_034",
+      "displayName": "Karin SPORT 34",
+      "brand": "Karin",
+      "price": 1554675,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_035",
+      "displayName": "Gallivanter ECONOMY 35",
+      "brand": "Gallivanter",
+      "price": 131940,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_036",
+      "displayName": "Annis ECONOMY 36",
+      "brand": "Annis",
+      "price": 78856,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_037",
+      "displayName": "Ocelot SUPER 37",
+      "brand": "Ocelot",
+      "price": 2316486,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_038",
+      "displayName": "Truffade COMFORT 38",
+      "brand": "Truffade",
+      "price": 378449,
+      "tier": "comfort",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_039",
+      "displayName": "Ocelot COMFORT 39",
+      "brand": "Ocelot",
+      "price": 502295,
+      "tier": "comfort",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_040",
+      "displayName": "Grotti SUPER 40",
+      "brand": "Grotti",
+      "price": 6329784,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_041",
+      "displayName": "Grotti SPORT 41",
+      "brand": "Grotti",
+      "price": 765535,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_042",
+      "displayName": "Bravado SUPER 42",
+      "brand": "Bravado",
+      "price": 5410435,
+      "tier": "super",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_043",
+      "displayName": "Dinka ECONOMY 43",
+      "brand": "Dinka",
+      "price": 56911,
+      "tier": "economy",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_044",
+      "displayName": "Truffade COMFORT 44",
+      "brand": "Truffade",
+      "price": 365314,
+      "tier": "comfort",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_045",
+      "displayName": "Gallivanter COMFORT 45",
+      "brand": "Gallivanter",
+      "price": 376812,
+      "tier": "comfort",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_046",
+      "displayName": "Pfister SPORT 46",
+      "brand": "Pfister",
+      "price": 703900,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_047",
+      "displayName": "Pegassi SPORT 47",
+      "brand": "Pegassi",
+      "price": 1796808,
+      "tier": "sport",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_048",
+      "displayName": "Lampadati SPORT 48",
+      "brand": "Lampadati",
+      "price": 1688785,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_049",
+      "displayName": "Vapid SPORT 49",
+      "brand": "Vapid",
+      "price": 1497997,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_050",
+      "displayName": "Pegassi SPORT 50",
+      "brand": "Pegassi",
+      "price": 984573,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_051",
+      "displayName": "Vapid SPORT 51",
+      "brand": "Vapid",
+      "price": 1270772,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_052",
+      "displayName": "Dinka SPORT 52",
+      "brand": "Dinka",
+      "price": 761152,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_053",
+      "displayName": "Pegassi SPORT 53",
+      "brand": "Pegassi",
+      "price": 582730,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_054",
+      "displayName": "Vulcar SPORT 54",
+      "brand": "Vulcar",
+      "price": 1865152,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_055",
+      "displayName": "Obey COMFORT 55",
+      "brand": "Obey",
+      "price": 454937,
+      "tier": "comfort",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_056",
+      "displayName": "Karin ECONOMY 56",
+      "brand": "Karin",
+      "price": 78636,
+      "tier": "economy",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_057",
+      "displayName": "Truffade SUPER 57",
+      "brand": "Truffade",
+      "price": 4970366,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_058",
+      "displayName": "Grotti SPORT 58",
+      "brand": "Grotti",
+      "price": 777020,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_059",
+      "displayName": "Truffade SUPER 59",
+      "brand": "Truffade",
+      "price": 2213078,
+      "tier": "super",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_060",
+      "displayName": "Ocelot ECONOMY 60",
+      "brand": "Ocelot",
+      "price": 137566,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_061",
+      "displayName": "Dinka SUPER 61",
+      "brand": "Dinka",
+      "price": 6426144,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_062",
+      "displayName": "Dinka SPORT 62",
+      "brand": "Dinka",
+      "price": 1344398,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_063",
+      "displayName": "Vapid PREMIUM 63",
+      "brand": "Vapid",
+      "price": 3384856,
+      "tier": "premium",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_064",
+      "displayName": "Coil SPORT 64",
+      "brand": "Coil",
+      "price": 1671254,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_065",
+      "displayName": "Pfister PREMIUM 65",
+      "brand": "Pfister",
+      "price": 1105582,
+      "tier": "premium",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_066",
+      "displayName": "Gallivanter SPORT 66",
+      "brand": "Gallivanter",
+      "price": 1301707,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_067",
+      "displayName": "Bravado SPORT 67",
+      "brand": "Bravado",
+      "price": 731403,
+      "tier": "sport",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_068",
+      "displayName": "Karin PREMIUM 68",
+      "brand": "Karin",
+      "price": 2695002,
+      "tier": "premium",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_069",
+      "displayName": "Ubermacht ECONOMY 69",
+      "brand": "Ubermacht",
+      "price": 43598,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_070",
+      "displayName": "Coil SPORT 70",
+      "brand": "Coil",
+      "price": 800724,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_071",
+      "displayName": "Ocelot SUPER 71",
+      "brand": "Ocelot",
+      "price": 6510149,
+      "tier": "super",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_072",
+      "displayName": "Coil COMFORT 72",
+      "brand": "Coil",
+      "price": 183598,
+      "tier": "comfort",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_073",
+      "displayName": "Vulcar SPORT 73",
+      "brand": "Vulcar",
+      "price": 1426520,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_074",
+      "displayName": "Vapid COMFORT 74",
+      "brand": "Vapid",
+      "price": 325726,
+      "tier": "comfort",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_075",
+      "displayName": "Karin PREMIUM 75",
+      "brand": "Karin",
+      "price": 2085164,
+      "tier": "premium",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_076",
+      "displayName": "Albany SPORT 76",
+      "brand": "Albany",
+      "price": 1212404,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_077",
+      "displayName": "Gallivanter PREMIUM 77",
+      "brand": "Gallivanter",
+      "price": 2186262,
+      "tier": "premium",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_078",
+      "displayName": "Karin ECONOMY 78",
+      "brand": "Karin",
+      "price": 73325,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_079",
+      "displayName": "Karin SPORT 79",
+      "brand": "Karin",
+      "price": 564224,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_080",
+      "displayName": "Declasse SUPER 80",
+      "brand": "Declasse",
+      "price": 3913338,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_081",
+      "displayName": "Albany ECONOMY 81",
+      "brand": "Albany",
+      "price": 71024,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_082",
+      "displayName": "Grotti ECONOMY 82",
+      "brand": "Grotti",
+      "price": 125579,
+      "tier": "economy",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_083",
+      "displayName": "Dinka SPORT 83",
+      "brand": "Dinka",
+      "price": 1708356,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_084",
+      "displayName": "Bravado SPORT 84",
+      "brand": "Bravado",
+      "price": 903452,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_085",
+      "displayName": "Gallivanter SPORT 85",
+      "brand": "Gallivanter",
+      "price": 576209,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_086",
+      "displayName": "Vulcar PREMIUM 86",
+      "brand": "Vulcar",
+      "price": 1111565,
+      "tier": "premium",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_087",
+      "displayName": "Benefactor ECONOMY 87",
+      "brand": "Benefactor",
+      "price": 74934,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_088",
+      "displayName": "Vapid ECONOMY 88",
+      "brand": "Vapid",
+      "price": 127091,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_089",
+      "displayName": "Ubermacht PREMIUM 89",
+      "brand": "Ubermacht",
+      "price": 2277736,
+      "tier": "premium",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_090",
+      "displayName": "Annis SUPER 90",
+      "brand": "Annis",
+      "price": 3579710,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_091",
+      "displayName": "Bravado COMFORT 91",
+      "brand": "Bravado",
+      "price": 209663,
+      "tier": "comfort",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_092",
+      "displayName": "Obey SUPER 92",
+      "brand": "Obey",
+      "price": 2494418,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_093",
+      "displayName": "Albany PREMIUM 93",
+      "brand": "Albany",
+      "price": 997126,
+      "tier": "premium",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_094",
+      "displayName": "Coil ECONOMY 94",
+      "brand": "Coil",
+      "price": 36508,
+      "tier": "economy",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_095",
+      "displayName": "Declasse COMFORT 95",
+      "brand": "Declasse",
+      "price": 519601,
+      "tier": "comfort",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_096",
+      "displayName": "Pfister SUPER 96",
+      "brand": "Pfister",
+      "price": 6918383,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_097",
+      "displayName": "Truffade PREMIUM 97",
+      "brand": "Truffade",
+      "price": 3408574,
+      "tier": "premium",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_098",
+      "displayName": "Benefactor SUPER 98",
+      "brand": "Benefactor",
+      "price": 6733019,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_099",
+      "displayName": "Dinka SUPER 99",
+      "brand": "Dinka",
+      "price": 6668728,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_100",
+      "displayName": "Gallivanter PREMIUM 100",
+      "brand": "Gallivanter",
+      "price": 3337211,
+      "tier": "premium",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_101",
+      "displayName": "Coil ECONOMY 101",
+      "brand": "Coil",
+      "price": 137617,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_102",
+      "displayName": "Grotti SUPER 102",
+      "brand": "Grotti",
+      "price": 2461710,
+      "tier": "super",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_103",
+      "displayName": "Annis SUPER 103",
+      "brand": "Annis",
+      "price": 3342040,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_104",
+      "displayName": "Benefactor ECONOMY 104",
+      "brand": "Benefactor",
+      "price": 92505,
+      "tier": "economy",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_105",
+      "displayName": "Dinka ECONOMY 105",
+      "brand": "Dinka",
+      "price": 139223,
+      "tier": "economy",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_106",
+      "displayName": "Gallivanter PREMIUM 106",
+      "brand": "Gallivanter",
+      "price": 2536122,
+      "tier": "premium",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_107",
+      "displayName": "Vulcar SUPER 107",
+      "brand": "Vulcar",
+      "price": 4567031,
+      "tier": "super",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_108",
+      "displayName": "Annis SPORT 108",
+      "brand": "Annis",
+      "price": 1445356,
+      "tier": "sport",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_109",
+      "displayName": "Gallivanter ECONOMY 109",
+      "brand": "Gallivanter",
+      "price": 52973,
+      "tier": "economy",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_110",
+      "displayName": "Coil PREMIUM 110",
+      "brand": "Coil",
+      "price": 1107340,
+      "tier": "premium",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_111",
+      "displayName": "Karin SUPER 111",
+      "brand": "Karin",
+      "price": 4334029,
+      "tier": "super",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_112",
+      "displayName": "Annis SUPER 112",
+      "brand": "Annis",
+      "price": 3906970,
+      "tier": "super",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_113",
+      "displayName": "Obey ECONOMY 113",
+      "brand": "Obey",
+      "price": 128647,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_114",
+      "displayName": "Vapid PREMIUM 114",
+      "brand": "Vapid",
+      "price": 1168588,
+      "tier": "premium",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_115",
+      "displayName": "Karin COMFORT 115",
+      "brand": "Karin",
+      "price": 181652,
+      "tier": "comfort",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_116",
+      "displayName": "Benefactor SPORT 116",
+      "brand": "Benefactor",
+      "price": 1798609,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_117",
+      "displayName": "Albany PREMIUM 117",
+      "brand": "Albany",
+      "price": 2756821,
+      "tier": "premium",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_118",
+      "displayName": "Karin ECONOMY 118",
+      "brand": "Karin",
+      "price": 92443,
+      "tier": "economy",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_119",
+      "displayName": "Vapid SUPER 119",
+      "brand": "Vapid",
+      "price": 4666363,
+      "tier": "super",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_120",
+      "displayName": "Pegassi SUPER 120",
+      "brand": "Pegassi",
+      "price": 5764403,
+      "tier": "super",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_121",
+      "displayName": "Pegassi PREMIUM 121",
+      "brand": "Pegassi",
+      "price": 1750287,
+      "tier": "premium",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_122",
+      "displayName": "Pegassi COMFORT 122",
+      "brand": "Pegassi",
+      "price": 288002,
+      "tier": "comfort",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_123",
+      "displayName": "Pegassi SPORT 123",
+      "brand": "Pegassi",
+      "price": 541612,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_124",
+      "displayName": "Enus ECONOMY 124",
+      "brand": "Enus",
+      "price": 69752,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_125",
+      "displayName": "Dinka ECONOMY 125",
+      "brand": "Dinka",
+      "price": 85961,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_126",
+      "displayName": "Enus SUPER 126",
+      "brand": "Enus",
+      "price": 4995723,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_127",
+      "displayName": "Pfister SUPER 127",
+      "brand": "Pfister",
+      "price": 5912216,
+      "tier": "super",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_128",
+      "displayName": "Vulcar SPORT 128",
+      "brand": "Vulcar",
+      "price": 784921,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_129",
+      "displayName": "Vulcar SPORT 129",
+      "brand": "Vulcar",
+      "price": 1810508,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_130",
+      "displayName": "Lampadati ECONOMY 130",
+      "brand": "Lampadati",
+      "price": 53959,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_131",
+      "displayName": "Dinka ECONOMY 131",
+      "brand": "Dinka",
+      "price": 41569,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_132",
+      "displayName": "Karin SUPER 132",
+      "brand": "Karin",
+      "price": 5660576,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_133",
+      "displayName": "Enus SUPER 133",
+      "brand": "Enus",
+      "price": 3678872,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_134",
+      "displayName": "Vulcar SPORT 134",
+      "brand": "Vulcar",
+      "price": 542067,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_135",
+      "displayName": "Truffade SUPER 135",
+      "brand": "Truffade",
+      "price": 6605746,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_136",
+      "displayName": "Pfister SUPER 136",
+      "brand": "Pfister",
+      "price": 3246128,
+      "tier": "super",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_137",
+      "displayName": "Benefactor ECONOMY 137",
+      "brand": "Benefactor",
+      "price": 46000,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_138",
+      "displayName": "Karin SPORT 138",
+      "brand": "Karin",
+      "price": 1484739,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_139",
+      "displayName": "Dinka ECONOMY 139",
+      "brand": "Dinka",
+      "price": 52689,
+      "tier": "economy",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_140",
+      "displayName": "Dinka PREMIUM 140",
+      "brand": "Dinka",
+      "price": 2702377,
+      "tier": "premium",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_141",
+      "displayName": "Gallivanter ECONOMY 141",
+      "brand": "Gallivanter",
+      "price": 80992,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_142",
+      "displayName": "Gallivanter ECONOMY 142",
+      "brand": "Gallivanter",
+      "price": 95262,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_143",
+      "displayName": "Gallivanter SUPER 143",
+      "brand": "Gallivanter",
+      "price": 3441584,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_144",
+      "displayName": "Albany ECONOMY 144",
+      "brand": "Albany",
+      "price": 109784,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_145",
+      "displayName": "Albany PREMIUM 145",
+      "brand": "Albany",
+      "price": 1069995,
+      "tier": "premium",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_146",
+      "displayName": "Albany SPORT 146",
+      "brand": "Albany",
+      "price": 1234816,
+      "tier": "sport",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_147",
+      "displayName": "Gallivanter SPORT 147",
+      "brand": "Gallivanter",
+      "price": 849701,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_148",
+      "displayName": "Karin SPORT 148",
+      "brand": "Karin",
+      "price": 1078614,
+      "tier": "sport",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_149",
+      "displayName": "Lampadati SPORT 149",
+      "brand": "Lampadati",
+      "price": 808065,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_150",
+      "displayName": "Truffade COMFORT 150",
+      "brand": "Truffade",
+      "price": 450861,
+      "tier": "comfort",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_151",
+      "displayName": "Gallivanter ECONOMY 151",
+      "brand": "Gallivanter",
+      "price": 79854,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_152",
+      "displayName": "Bravado COMFORT 152",
+      "brand": "Bravado",
+      "price": 232502,
+      "tier": "comfort",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_153",
+      "displayName": "Truffade COMFORT 153",
+      "brand": "Truffade",
+      "price": 292396,
+      "tier": "comfort",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_154",
+      "displayName": "Vapid SUPER 154",
+      "brand": "Vapid",
+      "price": 2578107,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_155",
+      "displayName": "Benefactor SUPER 155",
+      "brand": "Benefactor",
+      "price": 4776439,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_156",
+      "displayName": "Karin COMFORT 156",
+      "brand": "Karin",
+      "price": 488933,
+      "tier": "comfort",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_157",
+      "displayName": "Pegassi ECONOMY 157",
+      "brand": "Pegassi",
+      "price": 76198,
+      "tier": "economy",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_158",
+      "displayName": "Enus ECONOMY 158",
+      "brand": "Enus",
+      "price": 51846,
+      "tier": "economy",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_159",
+      "displayName": "Vulcar COMFORT 159",
+      "brand": "Vulcar",
+      "price": 299962,
+      "tier": "comfort",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_160",
+      "displayName": "Obey SUPER 160",
+      "brand": "Obey",
+      "price": 3627129,
+      "tier": "super",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_161",
+      "displayName": "Karin SPORT 161",
+      "brand": "Karin",
+      "price": 626704,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_162",
+      "displayName": "Albany COMFORT 162",
+      "brand": "Albany",
+      "price": 462737,
+      "tier": "comfort",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_163",
+      "displayName": "Declasse ECONOMY 163",
+      "brand": "Declasse",
+      "price": 123099,
+      "tier": "economy",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_164",
+      "displayName": "Truffade ECONOMY 164",
+      "brand": "Truffade",
+      "price": 58859,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_165",
+      "displayName": "Truffade ECONOMY 165",
+      "brand": "Truffade",
+      "price": 55048,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_166",
+      "displayName": "Declasse ECONOMY 166",
+      "brand": "Declasse",
+      "price": 130564,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_167",
+      "displayName": "Pfister SUPER 167",
+      "brand": "Pfister",
+      "price": 4861698,
+      "tier": "super",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_168",
+      "displayName": "Enus SUPER 168",
+      "brand": "Enus",
+      "price": 3711033,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_169",
+      "displayName": "Dinka SUPER 169",
+      "brand": "Dinka",
+      "price": 3969756,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_170",
+      "displayName": "Pfister SUPER 170",
+      "brand": "Pfister",
+      "price": 6492116,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_171",
+      "displayName": "Pegassi SUPER 171",
+      "brand": "Pegassi",
+      "price": 2323912,
+      "tier": "super",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_172",
+      "displayName": "Annis SUPER 172",
+      "brand": "Annis",
+      "price": 2101902,
+      "tier": "super",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_173",
+      "displayName": "Ocelot SUPER 173",
+      "brand": "Ocelot",
+      "price": 6653221,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_174",
+      "displayName": "Benefactor ECONOMY 174",
+      "brand": "Benefactor",
+      "price": 139888,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_175",
+      "displayName": "Albany COMFORT 175",
+      "brand": "Albany",
+      "price": 288393,
+      "tier": "comfort",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_176",
+      "displayName": "Benefactor SPORT 176",
+      "brand": "Benefactor",
+      "price": 834748,
+      "tier": "sport",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_177",
+      "displayName": "Karin SUPER 177",
+      "brand": "Karin",
+      "price": 5465268,
+      "tier": "super",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_178",
+      "displayName": "Declasse PREMIUM 178",
+      "brand": "Declasse",
+      "price": 3347798,
+      "tier": "premium",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_179",
+      "displayName": "Pfister SPORT 179",
+      "brand": "Pfister",
+      "price": 724044,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_180",
+      "displayName": "Dinka PREMIUM 180",
+      "brand": "Dinka",
+      "price": 1992561,
+      "tier": "premium",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_181",
+      "displayName": "Albany ECONOMY 181",
+      "brand": "Albany",
+      "price": 134235,
+      "tier": "economy",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_182",
+      "displayName": "Ubermacht ECONOMY 182",
+      "brand": "Ubermacht",
+      "price": 124874,
+      "tier": "economy",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_183",
+      "displayName": "Obey SPORT 183",
+      "brand": "Obey",
+      "price": 942158,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_184",
+      "displayName": "Vapid COMFORT 184",
+      "brand": "Vapid",
+      "price": 299523,
+      "tier": "comfort",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_185",
+      "displayName": "Benefactor SUPER 185",
+      "brand": "Benefactor",
+      "price": 3656539,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_186",
+      "displayName": "Vapid ECONOMY 186",
+      "brand": "Vapid",
+      "price": 52793,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_187",
+      "displayName": "Grotti ECONOMY 187",
+      "brand": "Grotti",
+      "price": 44362,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_188",
+      "displayName": "Annis SUPER 188",
+      "brand": "Annis",
+      "price": 3094154,
+      "tier": "super",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_189",
+      "displayName": "Lampadati PREMIUM 189",
+      "brand": "Lampadati",
+      "price": 2546069,
+      "tier": "premium",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_190",
+      "displayName": "Declasse SPORT 190",
+      "brand": "Declasse",
+      "price": 1218038,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_191",
+      "displayName": "Karin SPORT 191",
+      "brand": "Karin",
+      "price": 1783302,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_192",
+      "displayName": "Truffade PREMIUM 192",
+      "brand": "Truffade",
+      "price": 3476768,
+      "tier": "premium",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_193",
+      "displayName": "Ubermacht COMFORT 193",
+      "brand": "Ubermacht",
+      "price": 459418,
+      "tier": "comfort",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_194",
+      "displayName": "Enus COMFORT 194",
+      "brand": "Enus",
+      "price": 354553,
+      "tier": "comfort",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_195",
+      "displayName": "Benefactor ECONOMY 195",
+      "brand": "Benefactor",
+      "price": 60173,
+      "tier": "economy",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_196",
+      "displayName": "Coil COMFORT 196",
+      "brand": "Coil",
+      "price": 516938,
+      "tier": "comfort",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_197",
+      "displayName": "Grotti SPORT 197",
+      "brand": "Grotti",
+      "price": 1763040,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_198",
+      "displayName": "Ubermacht SPORT 198",
+      "brand": "Ubermacht",
+      "price": 606171,
+      "tier": "sport",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_199",
+      "displayName": "Enus PREMIUM 199",
+      "brand": "Enus",
+      "price": 2256255,
+      "tier": "premium",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_200",
+      "displayName": "Karin ECONOMY 200",
+      "brand": "Karin",
+      "price": 76542,
+      "tier": "economy",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_201",
+      "displayName": "Truffade SUPER 201",
+      "brand": "Truffade",
+      "price": 5743574,
+      "tier": "super",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_202",
+      "displayName": "Albany ECONOMY 202",
+      "brand": "Albany",
+      "price": 101555,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_203",
+      "displayName": "Enus ECONOMY 203",
+      "brand": "Enus",
+      "price": 48677,
+      "tier": "economy",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_204",
+      "displayName": "Benefactor PREMIUM 204",
+      "brand": "Benefactor",
+      "price": 1659123,
+      "tier": "premium",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_205",
+      "displayName": "Grotti COMFORT 205",
+      "brand": "Grotti",
+      "price": 214194,
+      "tier": "comfort",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_206",
+      "displayName": "Pfister ECONOMY 206",
+      "brand": "Pfister",
+      "price": 121588,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_207",
+      "displayName": "Karin SUPER 207",
+      "brand": "Karin",
+      "price": 3523335,
+      "tier": "super",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_208",
+      "displayName": "Coil COMFORT 208",
+      "brand": "Coil",
+      "price": 376175,
+      "tier": "comfort",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_209",
+      "displayName": "Coil ECONOMY 209",
+      "brand": "Coil",
+      "price": 121368,
+      "tier": "economy",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_210",
+      "displayName": "Ubermacht PREMIUM 210",
+      "brand": "Ubermacht",
+      "price": 3382889,
+      "tier": "premium",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_211",
+      "displayName": "Benefactor ECONOMY 211",
+      "brand": "Benefactor",
+      "price": 38602,
+      "tier": "economy",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_212",
+      "displayName": "Albany PREMIUM 212",
+      "brand": "Albany",
+      "price": 1112056,
+      "tier": "premium",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_213",
+      "displayName": "Annis SPORT 213",
+      "brand": "Annis",
+      "price": 693391,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_214",
+      "displayName": "Pfister SPORT 214",
+      "brand": "Pfister",
+      "price": 729276,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_215",
+      "displayName": "Enus COMFORT 215",
+      "brand": "Enus",
+      "price": 211791,
+      "tier": "comfort",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_premium_216",
+      "displayName": "Vulcar PREMIUM 216",
+      "brand": "Vulcar",
+      "price": 1413898,
+      "tier": "premium",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_217",
+      "displayName": "Dinka ECONOMY 217",
+      "brand": "Dinka",
+      "price": 58899,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_218",
+      "displayName": "Dinka SPORT 218",
+      "brand": "Dinka",
+      "price": 877869,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_219",
+      "displayName": "Albany COMFORT 219",
+      "brand": "Albany",
+      "price": 241322,
+      "tier": "comfort",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_220",
+      "displayName": "Gallivanter COMFORT 220",
+      "brand": "Gallivanter",
+      "price": 225683,
+      "tier": "comfort",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_221",
+      "displayName": "Enus ECONOMY 221",
+      "brand": "Enus",
+      "price": 45348,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_222",
+      "displayName": "Ubermacht SUPER 222",
+      "brand": "Ubermacht",
+      "price": 6514343,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_223",
+      "displayName": "Vapid SPORT 223",
+      "brand": "Vapid",
+      "price": 1327136,
+      "tier": "sport",
+      "regions": [
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_224",
+      "displayName": "Albany COMFORT 224",
+      "brand": "Albany",
+      "price": 185014,
+      "tier": "comfort",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_225",
+      "displayName": "Obey COMFORT 225",
+      "brand": "Obey",
+      "price": 300248,
+      "tier": "comfort",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_226",
+      "displayName": "Grotti ECONOMY 226",
+      "brand": "Grotti",
+      "price": 83927,
+      "tier": "economy",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_227",
+      "displayName": "Albany SPORT 227",
+      "brand": "Albany",
+      "price": 842528,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_228",
+      "displayName": "Vulcar SUPER 228",
+      "brand": "Vulcar",
+      "price": 5132892,
+      "tier": "super",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_229",
+      "displayName": "Lampadati COMFORT 229",
+      "brand": "Lampadati",
+      "price": 369890,
+      "tier": "comfort",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_230",
+      "displayName": "Grotti ECONOMY 230",
+      "brand": "Grotti",
+      "price": 43679,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_231",
+      "displayName": "Pfister SPORT 231",
+      "brand": "Pfister",
+      "price": 558578,
+      "tier": "sport",
+      "regions": [
+        "DE",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_232",
+      "displayName": "Benefactor COMFORT 232",
+      "brand": "Benefactor",
+      "price": 265599,
+      "tier": "comfort",
+      "regions": [
+        "RU",
+        "CIS",
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_233",
+      "displayName": "Karin ECONOMY 233",
+      "brand": "Karin",
+      "price": 129460,
+      "tier": "economy",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_234",
+      "displayName": "Ubermacht SUPER 234",
+      "brand": "Ubermacht",
+      "price": 5488292,
+      "tier": "super",
+      "regions": [
+        "EU",
+        "DE",
+        "RU",
+        "CIS"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_235",
+      "displayName": "Bravado SUPER 235",
+      "brand": "Bravado",
+      "price": 5039701,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_236",
+      "displayName": "Pegassi COMFORT 236",
+      "brand": "Pegassi",
+      "price": 347062,
+      "tier": "comfort",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_economy_237",
+      "displayName": "Albany ECONOMY 237",
+      "brand": "Albany",
+      "price": 76252,
+      "tier": "economy",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_super_238",
+      "displayName": "Gallivanter SUPER 238",
+      "brand": "Gallivanter",
+      "price": 2492117,
+      "tier": "super",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_sport_239",
+      "displayName": "Coil SPORT 239",
+      "brand": "Coil",
+      "price": 1205337,
+      "tier": "sport",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    },
+    {
+      "modelCode": "civx_comfort_240",
+      "displayName": "Annis COMFORT 240",
+      "brand": "Annis",
+      "price": 339302,
+      "tier": "comfort",
+      "regions": [
+        "EU"
+      ],
+      "access": [
+        "civilian"
+      ]
+    }
+  ],
+  "replaceAll": false
+}

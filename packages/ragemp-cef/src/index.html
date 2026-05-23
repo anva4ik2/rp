@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>GTA RP Core</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============================== AUTH ============================== -->
+  <div id="auth-screen" class="screen full-screen">
+    <div class="auth-card">
+      <h1 class="brand">GTA RP CORE</h1>
+      <p class="brand-sub">Добро пожаловать в Los Santos</p>
+
+      <div class="tabs">
+        <button class="tab active" data-tab="login">Вход</button>
+        <button class="tab" data-tab="register">Регистрация</button>
+      </div>
+
+      <form id="login-form" class="auth-form">
+        <input type="email" id="login-email" placeholder="Email" autocomplete="username" required />
+        <input type="password" id="login-password" placeholder="Пароль" autocomplete="current-password" required />
+        <button type="submit" class="primary">Войти</button>
+      </form>
+
+      <form id="register-form" class="auth-form hidden">
+        <input type="email" id="register-email" placeholder="Email" required />
+        <input type="password" id="register-password" placeholder="Пароль (мин 6)" minlength="6" required />
+        <button type="submit" class="primary">Создать аккаунт</button>
+      </form>
+
+      <div id="auth-error" class="error-line"></div>
+    </div>
+  </div>
+
+  <!-- ============================== CHARACTERS ============================== -->
+  <div id="characters-screen" class="screen full-screen hidden">
+    <div class="char-container">
+      <h2>Выбор персонажа</h2>
+      <div id="character-list" class="character-list"></div>
+      <button id="show-create-character" class="primary">+ Новый персонаж</button>
+    </div>
+  </div>
+
+  <div id="character-create-screen" class="screen full-screen hidden">
+    <form id="character-create-form" class="char-card">
+      <h2>Создание персонажа</h2>
+      <input type="text" id="char-first-name" placeholder="Имя" required minlength="2" maxlength="24" />
+      <input type="text" id="char-last-name" placeholder="Фамилия" required minlength="2" maxlength="24" />
+      <div class="row">
+        <button type="button" id="cancel-create" class="secondary">Отмена</button>
+        <button type="submit" class="primary">Создать</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- ============================== HUD ============================== -->
+  <div id="hud" class="hud hidden">
+    <div class="hud-top-right">
+      <div class="hud-money"><span>$</span><span id="hud-cash">0</span></div>
+      <div class="hud-money bank"><span>🏦</span><span id="hud-bank">0</span></div>
+    </div>
+    <div class="hud-bottom-right">
+      <div class="bar"><div id="health-fill" class="bar-fill health" style="width:100%"></div></div>
+      <div class="bar"><div id="armor-fill" class="bar-fill armor" style="width:0%"></div></div>
+    </div>
+    <div class="hud-bottom-left">
+      <div id="hud-job" class="hud-pill">Безработный</div>
+      <div id="hud-faction" class="hud-pill hidden"></div>
+      <div id="hud-admin" class="hud-pill admin hidden">Admin</div>
+    </div>
+  </div>
+
+  <!-- ============================== CHAT ============================== -->
+  <div id="chat" class="chat hidden">
+    <div id="chat-log" class="chat-log"></div>
+    <form id="chat-form" class="chat-form hidden">
+      <input id="chat-input" type="text" maxlength="200" placeholder="Сообщение... (Esc — отмена)" />
+    </form>
+  </div>
+
+  <!-- ============================== INVENTORY ============================== -->
+  <div id="inventory-screen" class="screen modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2>Инвентарь</h2>
+        <button class="close-btn" data-screen="inventory-screen">×</button>
+      </div>
+      <div class="inventory-stats">
+        <span>Вес: <b id="inv-weight">0</b>/<b id="inv-max-weight">50</b> кг</span>
+        <span>Слоты: <b id="inv-slots">0</b>/30</span>
+      </div>
+      <div id="inventory-grid" class="inventory-grid"></div>
+    </div>
+  </div>
+
+  <!-- ============================== INTERACTION ============================== -->
+  <div id="interaction-screen" class="screen modal hidden">
+    <div class="modal-card narrow">
+      <div class="modal-header">
+        <h2>Взаимодействие</h2>
+        <button class="close-btn" data-screen="interaction-screen">×</button>
+      </div>
+      <div class="interaction-options">
+        <button class="interaction-option" data-action="handsup">🙌 Руки вверх</button>
+        <button class="interaction-option" data-action="inventory">🎒 Инвентарь</button>
+        <button class="interaction-option" data-action="phone">📞 Телефон</button>
+        <button class="interaction-option" data-action="tablet">📱 Планшет</button>
+        <button class="interaction-option" data-action="shop">🛒 Магазин</button>
+        <button class="interaction-option" data-action="animations">🎭 Анимации</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================== ADMIN PANEL ============================== -->
+  <div id="admin-screen" class="screen modal hidden">
+    <div class="modal-card wide">
+      <div class="modal-header">
+        <h2>Админ-панель <span id="admin-level-badge" class="badge">L?</span></h2>
+        <button class="close-btn" data-screen="admin-screen">×</button>
+      </div>
+      <div class="admin-tabs">
+        <button class="admin-tab active" data-admin-tab="players">Игроки</button>
+        <button class="admin-tab" data-admin-tab="logs">Логи</button>
+        <button class="admin-tab" data-admin-tab="reports">Репорты</button>
+      </div>
+
+      <div class="admin-pane" data-admin-pane="players">
+        <div class="row">
+          <input id="admin-search" type="text" placeholder="Поиск по имени..." />
+          <button id="admin-search-btn" class="primary">Найти</button>
+        </div>
+        <div id="admin-search-results" class="admin-list"></div>
+
+        <div class="admin-actions">
+          <h3>Быстрые действия по выделенному</h3>
+          <div id="admin-selected" class="admin-selected">Не выбрано</div>
+          <div class="row wrap">
+            <button class="admin-action" data-action="kick">Кик</button>
+            <button class="admin-action" data-action="heal">Heal</button>
+            <button class="admin-action" data-action="freeze">Freeze</button>
+            <button class="admin-action" data-action="unfreeze">Unfreeze</button>
+            <button class="admin-action" data-action="god-on">God ON</button>
+            <button class="admin-action" data-action="god-off">God OFF</button>
+            <button class="admin-action" data-action="invis-on">Invis ON</button>
+            <button class="admin-action" data-action="invis-off">Invis OFF</button>
+            <button class="admin-action" data-action="mute">Mute 60м</button>
+            <button class="admin-action" data-action="unmute">Unmute</button>
+            <button class="admin-action" data-action="ban">Бан 1ч</button>
+            <button class="admin-action" data-action="give-money">+10k cash</button>
+            <button class="admin-action" data-action="give-vehicle">+ Авто</button>
+            <button class="admin-action" data-action="give-weapon">+ AK-47</button>
+            <button class="admin-action" data-action="clear-inventory">Wipe inv</button>
+          </div>
+          <div class="row" style="margin-top:8px;">
+            <input id="admin-announce-text" type="text" placeholder="Текст объявления..." />
+            <button id="admin-announce-btn" class="primary">Announce</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="admin-pane hidden" data-admin-pane="logs">
+        <button id="admin-refresh-logs" class="secondary">Обновить</button>
+        <div id="admin-logs" class="admin-list"></div>
+      </div>
+
+      <div class="admin-pane hidden" data-admin-pane="reports">
+        <div id="admin-reports" class="admin-list">Заглушка: подключите /admin/reports</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================== BAN SCREEN ============================== -->
+  <div id="ban-screen" class="screen full-screen hidden">
+    <div class="auth-card">
+      <h1 class="brand" style="color:#ff4444">⛔ АККАУНТ ЗАБЛОКИРОВАН</h1>
+      <p id="ban-reason" class="error-line" style="text-align:center;font-size:18px">Причина: нарушение правил</p>
+      <p id="ban-remaining" class="brand-sub" style="color:#ffcc33;text-align:center;font-size:20px"></p>
+      <p id="ban-permanent" class="error-line" style="text-align:center;font-size:24px;font-weight:bold">ЗАБАНЕН НАВСЕГДА</p>
+      <p style="text-align:center;opacity:.7;margin-top:20px">Если считаете блокировку ошибочной, обратитесь в поддержку проекта.</p>
+    </div>
+  </div>
+
+  <!-- ============================== PHONE ============================== -->
+  <div id="phone-screen" class="screen modal hidden">
+    <div class="modal-card narrow" style="max-height:80vh">
+      <div class="modal-header">
+        <h2>📞 Телефон</h2>
+        <button class="close-btn" data-screen="phone-screen">×</button>
+      </div>
+      <div class="phone-tabs">
+        <button class="phone-tab active" data-phone-tab="contacts">Контакты</button>
+        <button class="phone-tab" data-phone-tab="messages">Сообщения</button>
+        <button class="phone-tab" data-phone-tab="bank">Банк</button>
+      </div>
+      <div class="phone-pane" data-phone-pane="contacts">
+        <div id="phone-contacts-list" class="admin-list"></div>
+        <div class="row" style="margin-top:8px">
+          <input id="phone-add-name" type="text" placeholder="Имя" />
+          <input id="phone-add-number" type="text" placeholder="Номер" />
+          <button id="phone-add-contact" class="primary">+</button>
+        </div>
+      </div>
+      <div class="phone-pane hidden" data-phone-pane="messages">
+        <div id="phone-messages-list" class="admin-list"></div>
+        <div class="row" style="margin-top:8px">
+          <input id="phone-msg-to" type="text" placeholder="Номер" />
+          <input id="phone-msg-text" type="text" placeholder="Сообщение..." />
+          <button id="phone-send-msg" class="primary">➤</button>
+        </div>
+      </div>
+      <div class="phone-pane hidden" data-phone-pane="bank">
+        <div id="phone-bank-balance" class="hud-money" style="font-size:22px;text-align:center;margin:12px 0">$0</div>
+        <div class="row" style="margin-top:8px">
+          <input id="phone-bank-to" type="text" placeholder="Номер счета" />
+          <input id="phone-bank-amount" type="number" placeholder="Сумма" />
+          <button id="phone-bank-transfer" class="primary">Перевод</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================== TABLET ============================== -->
+  <div id="tablet-screen" class="screen modal hidden">
+    <div class="modal-card wide" style="max-height:85vh">
+      <div class="modal-header">
+        <h2>📱 Планшет</h2>
+        <button class="close-btn" data-screen="tablet-screen">×</button>
+      </div>
+      <div class="tablet-tabs">
+        <button class="tablet-tab active" data-tablet-tab="market">Marketplace</button>
+        <button class="tablet-tab" data-tablet-tab="jobs">Работы</button>
+        <button class="tablet-tab" data-tablet-tab="houses">Дома</button>
+        <button class="tablet-tab" data-tablet-tab="businesses">Бизнесы</button>
+        <button class="tablet-tab" data-tablet-tab="factions">Фракции</button>
+      </div>
+      <div class="tablet-pane" data-tablet-pane="market">
+        <div class="row" style="margin-bottom:8px">
+          <input id="tablet-market-search" type="text" placeholder="Поиск..." />
+          <button id="tablet-market-refresh" class="secondary">Обновить</button>
+        </div>
+        <div id="tablet-market-list" class="admin-list"></div>
+      </div>
+      <div class="tablet-pane hidden" data-tablet-pane="jobs">
+        <div id="tablet-jobs-list" class="admin-list"></div>
+      </div>
+      <div class="tablet-pane hidden" data-tablet-pane="houses">
+        <div id="tablet-houses-list" class="admin-list"></div>
+      </div>
+      <div class="tablet-pane hidden" data-tablet-pane="businesses">
+        <div id="tablet-businesses-list" class="admin-list"></div>
+      </div>
+      <div class="tablet-pane hidden" data-tablet-pane="factions">
+        <div id="tablet-factions-list" class="admin-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================== SHOP ============================== -->
+  <div id="shop-screen" class="screen modal hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2>🛒 Магазин 24/7</h2>
+        <button class="close-btn" data-screen="shop-screen">×</button>
+      </div>
+      <div id="shop-items" class="admin-list"></div>
+    </div>
+  </div>
+
+  <!-- Notification host -->
+  <div id="notify-host" class="notify-host"></div>
+
+  <script src="ui.js"></script>
+</body>
+</html>
