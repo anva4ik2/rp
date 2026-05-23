@@ -2,10 +2,24 @@ import { Pool } from "pg";
 import { config } from "./config.js";
 import { initMajesticFactions } from "./modules/init-factions.js";
 
+const noDb = process.env.NO_DB === "true";
+
+// Mock pool for testing without PostgreSQL
+const mockPool = {
+  query: async (_sql: string, _values?: any[]) => ({ rows: [], rowCount: 0 }),
+  connect: async () => ({
+    query: async (_sql: string, _values?: any[]) => ({ rows: [], rowCount: 0 }),
+    release: () => {},
+  }),
+  end: async () => {},
+  on: (_event: string, _handler: any) => {},
+} as unknown as Pool;
+
 // SSL is required for Railway-hosted Postgres (containers-*.railway.app and
 // *.rlwy.net hostnames) and for any provider that sets PGSSLMODE/DATABASE_SSL.
 // Local development (localhost / 127.0.0.1) skips SSL.
 const needsSsl =
+  !noDb &&
   !/(localhost|127\.0\.0\.1)/.test(config.databaseUrl) &&
   (config.databaseUrl.includes("railway") ||
     config.databaseUrl.includes("rlwy.net") ||
@@ -13,12 +27,19 @@ const needsSsl =
     process.env.PGSSLMODE === "require" ||
     process.env.DATABASE_SSL === "true");
 
-export const pool = new Pool({
-  connectionString: config.databaseUrl,
-  ssl: needsSsl ? { rejectUnauthorized: false } : undefined
-});
+export const pool = noDb
+  ? mockPool
+  : new Pool({
+      connectionString: config.databaseUrl,
+      ssl: needsSsl ? { rejectUnauthorized: false } : undefined
+    });
 
 export async function runMigrations(): Promise<void> {
+  if (noDb) {
+    console.log("[db] NO_DB=true — skipping migrations (mock mode)");
+    return;
+  }
+
   await pool.query(`
     CREATE TABLE IF NOT EXISTS users (
       id SERIAL PRIMARY KEY,
