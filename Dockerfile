@@ -4,6 +4,7 @@ WORKDIR /app
 
 # Copy all package.json files for workspace install
 COPY package.json ./
+COPY package-lock.json ./
 COPY packages/shared/package.json ./packages/shared/
 COPY packages/server/package.json ./packages/server/
 COPY packages/ragemp-server/package.json ./packages/ragemp-server/
