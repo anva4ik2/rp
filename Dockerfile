@@ -10,8 +10,8 @@ COPY packages/ragemp-server/package.json ./packages/ragemp-server/
 COPY packages/ragemp-client/package.json ./packages/ragemp-client/
 COPY packages/ragemp-cef/package.json ./packages/ragemp-cef/
 
-# Install dependencies (npm install because no package-lock.json in repo)
-RUN npm install --include=dev --no-audit --no-fund --legacy-peer-deps
+# Install dependencies (npm ci because package-lock.json is in repo)
+RUN npm ci --include=dev --no-audit --no-fund
 
 # Copy source files
 COPY . .
@@ -31,7 +31,7 @@ COPY packages/shared/package.json ./packages/shared/
 COPY packages/server/package.json ./packages/server/
 
 # Install production dependencies only
-RUN npm install --omit=dev --no-audit --no-fund --legacy-peer-deps
+RUN npm ci --omit=dev --no-audit --no-fund
 
 # Copy built files from builder
 COPY --from=builder /app/packages/server/dist ./packages/server/dist
