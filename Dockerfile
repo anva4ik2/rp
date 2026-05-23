@@ -2,21 +2,23 @@ FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-# Copy package files
-COPY package*.json ./
-COPY packages/server/package*.json ./packages/server/
-COPY packages/shared/package*.json ./packages/shared/
+# Copy all package.json files for workspace install
+COPY package.json ./
+COPY packages/shared/package.json ./packages/shared/
+COPY packages/server/package.json ./packages/server/
+COPY packages/ragemp-server/package.json ./packages/ragemp-server/
+COPY packages/ragemp-client/package.json ./packages/ragemp-client/
+COPY packages/ragemp-cef/package.json ./packages/ragemp-cef/
 
-# Install dependencies
-RUN npm ci
+# Install dependencies (npm install because no package-lock.json in repo)
+RUN npm install --include=dev --no-audit --no-fund --legacy-peer-deps
 
 # Copy source files
-COPY packages/server/src ./packages/server/src
-COPY packages/shared/src ./packages/shared/src
+COPY . .
 
-# Build TypeScript
-RUN npx tsc -p packages/server/tsconfig.json
-RUN npx tsc -p packages/shared/tsconfig.json
+# Build workspace packages
+RUN npm --workspace @gta-rp/shared run build
+RUN npm --workspace @gta-rp/server run build
 
 # Production stage
 FROM node:20-alpine AS production
@@ -24,23 +26,23 @@ FROM node:20-alpine AS production
 WORKDIR /app
 
 # Copy package files
-COPY package*.json ./
-COPY packages/server/package*.json ./packages/server/
-COPY packages/shared/package*.json ./packages/shared/
+COPY package.json ./
+COPY packages/shared/package.json ./packages/shared/
+COPY packages/server/package.json ./packages/server/
 
-# Install only production dependencies
-RUN npm ci --production=only
+# Install production dependencies only
+RUN npm install --omit=dev --no-audit --no-fund --legacy-peer-deps
 
 # Copy built files from builder
 COPY --from=builder /app/packages/server/dist ./packages/server/dist
 COPY --from=builder /app/packages/shared/dist ./packages/shared/dist
 
 # Expose port
-EXPOSE 3000
+EXPOSE 4000
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-  CMD node -e "require('http').get('http://localhost:3000/health', (r) => { process.exit(r.statusCode === 200 ? 0 : 1) })"
+  CMD node -e "require('http').get('http://localhost:4000/health', (r) => { process.exit(r.statusCode === 200 ? 0 : 1) })"
 
 # Start server
-CMD ["node", "packages/server/dist/index.js"]
+CMD ["npm", "--workspace", "@gta-rp/server", "run", "start"]

@@ -5,7 +5,6 @@ dist
 .env.*.local
 *.log
 coverage
-package-lock.json
 server-files
 resources/
 bin/
