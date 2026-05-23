@@ -87,25 +87,22 @@ docker run -d --name gta-rp-postgres `
   -p 5432:5432 postgres:16-alpine
 ```
 
-**Вариант B — PostgreSQL локально:**
-Скачай установщик: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
-
-При установке:
-- Пароль суперпользователя: `gta_password`
-- Порт: `5432`
+**Вариант B — PostgreSQL локально (уже установлен):**
+PostgreSQL 18 уже установлен в `C:\Program Files\PostgreSQL\18\bin`.
 
 Создай базу и пользователя через `psql`:
-```sql
-CREATE DATABASE gta_rp;
-CREATE USER gta_user WITH PASSWORD 'gta_password';
-GRANT ALL PRIVILEGES ON DATABASE gta_rp TO gta_user;
+```powershell
+& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -c "CREATE DATABASE gta_rp;"
+& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -c "CREATE USER gta_user WITH PASSWORD '1111';"
+& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -c "GRANT ALL PRIVILEGES ON DATABASE gta_rp TO gta_user;"
+& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -c "ALTER DATABASE gta_rp OWNER TO gta_user;"
 ```
 
 ### 3. Переменные окружения
 
 Файл `.env` уже создан в корне проекта:
 ```env
-DATABASE_URL=postgresql://gta_user:gta_password@localhost:5432/gta_rp
+DATABASE_URL=postgresql://gta_user:1111@localhost:8080/gta_rp
 JWT_SECRET=local-dev-secret-key-32-chars-long-123456
 ADMIN_TOKEN=local-admin-token-for-testing-only-12345
 BOOTSTRAP_FOUNDER_EMAIL=ianvar633@gmail.com
