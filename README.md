@@ -92,10 +92,10 @@ PostgreSQL 18 уже установлен в `C:\Program Files\PostgreSQL\18\bin
 
 Создай базу и пользователя через `psql`:
 ```powershell
-& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -c "CREATE DATABASE gta_rp;"
-& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -c "CREATE USER gta_user WITH PASSWORD '1111';"
-& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -c "GRANT ALL PRIVILEGES ON DATABASE gta_rp TO gta_user;"
-& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -c "ALTER DATABASE gta_rp OWNER TO gta_user;"
+& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -p 8080 -c "CREATE DATABASE gta_rp;"
+& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -p 8080 -c "CREATE USER gta_user WITH PASSWORD '1111';"
+& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -p 8080 -c "GRANT ALL PRIVILEGES ON DATABASE gta_rp TO gta_user;"
+& "C:\Program Files\PostgreSQL\18\bin\psql.exe" -U postgres -p 8080 -c "ALTER DATABASE gta_rp OWNER TO gta_user;"
 ```
 
 ### 3. Переменные окружения
