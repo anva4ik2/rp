@@ -27,6 +27,7 @@ WORKDIR /app
 
 # Copy package files
 COPY package.json ./
+COPY package-lock.json ./
 COPY packages/shared/package.json ./packages/shared/
 COPY packages/server/package.json ./packages/server/
 
