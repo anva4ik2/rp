@@ -13,7 +13,7 @@ const envSchema = z.object({
   RATE_LIMIT_MAX: z.string().default("120"),
   AUTH_RATE_LIMIT_WINDOW_MS: z.string().default("60000"),
   AUTH_RATE_LIMIT_MAX: z.string().default("20"),
-  TRUST_PROXY: z.string().default("true")
+  TRUST_PROXY: z.string().default("1")
 });
 
 const parsed = envSchema.safeParse(process.env);
@@ -21,6 +21,15 @@ const parsed = envSchema.safeParse(process.env);
 if (!parsed.success) {
   console.error("Invalid env:", parsed.error.flatten().fieldErrors);
   process.exit(1);
+}
+
+function parseTrustProxy(value: string): boolean | string | number {
+  const lower = value.toLowerCase();
+  if (lower === "true") return true;
+  if (lower === "false") return false;
+  const num = Number(value);
+  if (!isNaN(num)) return num;
+  return value;
 }
 
 export const config = {
@@ -33,5 +42,5 @@ export const config = {
   rateLimitMax: Number(parsed.data.RATE_LIMIT_MAX),
   authRateLimitWindowMs: Number(parsed.data.AUTH_RATE_LIMIT_WINDOW_MS),
   authRateLimitMax: Number(parsed.data.AUTH_RATE_LIMIT_MAX),
-  trustProxy: parsed.data.TRUST_PROXY.toLowerCase() === "true"
+  trustProxy: parseTrustProxy(parsed.data.TRUST_PROXY)
 };
