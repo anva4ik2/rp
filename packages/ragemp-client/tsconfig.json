@@ -12,7 +12,7 @@
     "sourceMap": true,
     "outDir": "dist",
     "rootDir": "src",
-    "types": ["node", "ragemp-c"]
+    "types": ["node"]
   },
   "include": ["src"]
 }

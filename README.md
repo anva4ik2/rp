@@ -64,6 +64,69 @@ Railway создаст эти переменные автоматически и
 ### 5. Получи API URL
 Публичный URL вида `https://<service>.up.railway.app` — это твой `API_BASE_URL` для RAGE MP-моста.
 
+## 🖥 Локальный запуск backend (для разработки)
+
+### 1. Установи зависимости
+
+```powershell
+# Убедись, что Node.js 20+ установлен
+node -v
+
+# Установи зависимости
+npm install --include=dev --no-audit --no-fund --legacy-peer-deps
+```
+
+### 2. Подними PostgreSQL
+
+**Вариант A — Docker (рекомендуется):**
+```powershell
+docker run -d --name gta-rp-postgres `
+  -e POSTGRES_USER=gta_user `
+  -e POSTGRES_PASSWORD=gta_password `
+  -e POSTGRES_DB=gta_rp `
+  -p 5432:5432 postgres:16-alpine
+```
+
+**Вариант B — PostgreSQL локально:**
+Скачай установщик: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+
+При установке:
+- Пароль суперпользователя: `gta_password`
+- Порт: `5432`
+
+Создай базу и пользователя через `psql`:
+```sql
+CREATE DATABASE gta_rp;
+CREATE USER gta_user WITH PASSWORD 'gta_password';
+GRANT ALL PRIVILEGES ON DATABASE gta_rp TO gta_user;
+```
+
+### 3. Переменные окружения
+
+Файл `.env` уже создан в корне проекта:
+```env
+DATABASE_URL=postgresql://gta_user:gta_password@localhost:5432/gta_rp
+JWT_SECRET=local-dev-secret-key-32-chars-long-123456
+ADMIN_TOKEN=local-admin-token-for-testing-only-12345
+BOOTSTRAP_FOUNDER_EMAIL=ianvar633@gmail.com
+STARTER_VEHICLE_MODEL=asea
+PORT=4000
+CORS_ORIGINS=*
+NODE_ENV=development
+```
+
+### 4. Сборка и запуск
+
+```powershell
+npm --workspace @gta-rp/shared run build
+npm --workspace @gta-rp/server run build
+npm --workspace @gta-rp/server run start
+```
+
+Или используй скрипт: `start-local.cmd` (двойной клик).
+
+API будет доступен на `http://localhost:4000`. Проверь `/health`.
+
 ## 🎮 Запуск RAGE MP
 
 1. Скачай RAGE MP server (`ragemp-srv`), распакуй в `C:\ragemp-server\server-files`.
@@ -106,8 +169,8 @@ Railway создаст эти переменные автоматически и
    PORT         = 3000
    BOOTSTRAP_FOUNDER_EMAIL = <твой email>
    ```
-5. Railway сам подхватит `@/railway.json` + `@/nixpacks.toml` → Node 20 → `npm install --include=dev` → собирает `@gta-rp/shared` затем `@gta-rp/server` → запускает `node dist/index.js`.
-6. После деплоя проверь URL: `https://<service>.up.railway.app/health` должен вернуть `{ "status": "ok" }`.
+5. Railway сам найдёт `@/Dockerfile` + `@/railway.json` в корне репо → Node 20 → `npm ci` → собирает `@gta-rp/shared` затем `@gta-rp/server` → запускает сервер.
+6. После деплоя проверь URL: `https://<service>.up.railway.app/health` должен вернуть `{"ok":true}`.
 
 ## ⌨️ Хоткеи
 
